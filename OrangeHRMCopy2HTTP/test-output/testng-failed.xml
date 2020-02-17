@@ -14,6 +14,16 @@
           <include name="loginToApplication"/>
         </methods>
       </class> <!-- com.qa.orangehrm.tests.CreateUserAdminTest -->
+      <class name="com.qa.orangehrm.tests.LoginScenarios">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setupReport"/>
+          <include name="setUp"/>
+          <include name="tearDownReport"/>
+          <include name="verifyPage"/>
+        </methods>
+      </class> <!-- com.qa.orangehrm.tests.LoginScenarios -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
